@@ -1,0 +1,12 @@
+def calcul_moyenne(liste_notes)
+    somme = 0
+    for note in liste_notes:
+        somme += note
+    moyenne = somme / len(liste_notes)
+    print("La moyenne est de :", moyenne)
+
+
+notes = [14, 16, 12, 18, 20]
+
+
+calcul_moyenne(notes)
